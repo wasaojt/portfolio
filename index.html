@@ -1,22 +1,80 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Tomoya|Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>webエンジニア志望　ポートフォリオ</h1>
+<!-- Header -->
+<header class="header">
+  <div class="logo">TOMO<span>ya</span></div>
 </header>
 
 <main>
-    <section id="about">
-        <h2>About</h2>
-        <p>現在HTML/CSS/JavaScriptを学習中です</p>
-    </section>
+
+ <!-- main visual --> 
+ <section class="main fade">
+  <div class="main-inner">
+   <h1 class="main-title">
+     業務効率化で<br>
+     <span>シンプルなWEBを</span>
+   </h1>
+   <p class="main-sub">
+    Web Development with Efficiency in Mind
+   </p> 
+
+  <a href="#project" class="main-btn">View projects</a>
+ </div> 
+</section>
+
+<!-- Skills -->
+<section class="skill fade">
+ <h2 class="section-title">Skills</h2>
+  <p class="section-sub">現在扱えるスキル</p>
+
+  <ul class="skill-list">
+    <li class="skill-card">HTML</li>
+    <li class="skill-card">CSS</li>
+    <li class="skill-card">JavaScript (Learning)</li>
+  </ul>
+</section>
+
+<!-- Projects -->
+<section class="project fade" id="projects">
+  <h2 class="section-title">Projects</h2>
+  <p class="section-sub">制作したWebサイト</p>
+
+  <ul class="project-list">
+    <li class="project-card">
+      <p>Portfolio Site</p>
+    </li>
+    <li class="project-card">
+      <p>Landing Page</p>
+    </li>
+    <li class="project-card">
+      <p>Service Site</p>
+    </li>
+  </ul>
+</section>
+
+<!-- About -->
+<section class="about fade">
+  <h2 class="section-title">About</h2>
+  <p class="about-text">
+    未経験からWebエンジニアを目指して学習中。<br>
+    業務効率化と、シンプルで使いやすい設計を意識して制作しています。
+  </p>
+</section>
+
 </main>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 TOMOya</p>
+</footer>
 
 </body>
 </html>
