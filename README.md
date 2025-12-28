@@ -1,12 +1,20 @@
-# Portfolio
+#Portfolio Site
 
-WEBエンジニア志望のポートフォリオです。
+自己紹介用のポートフォリオサイトです。
+業務効率化を意識し、シンプルで分かりやすいWeb制作を心がけています。
 
 ##使用技術
+
 -HTML
 -CSS
--JavaScript
--Git/GitHub
+-JavaScript(学習中)
 
-##学習状況
-現在、HTML/CSS/JavaScriptを中心に学習中です。
+##コンセプト
+
+業務効率化を意識した設計と、無駄を省いたUIを大切にしています。
+
+##今後の予定
+
+-Projectsの内容追加
+-レスポンシブ対応の改善
+-JavaScriptを使った動きの追加
