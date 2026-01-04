@@ -167,20 +167,6 @@ section {
   line-height: 1.8;
 }
 
-/* ==Fade-in == */
-.fade {
-  opacity: 0;
-  transform: translateY(40px);
-  animation: fadeIn 1s ease forwards;
-}
-
-@keyframes fadeIn {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 /* == Footer == */
 .footer {
   padding: 40px;
